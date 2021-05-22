@@ -1,0 +1,29 @@
+<head>
+    <title>Notes app</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+</head>
+
+<style>
+    .center-column{
+		width:400px;
+		margin: 200px auto;
+		padding:20px;
+		background-color: #fff;
+
+	}
+
+	.baton{
+        text-align: center;
+	}
+</style>
+
+
+<div class="center-column">
+    <h1 class="ui center aligned header">Successful registration!</h1>
+        <form class="ui form" action="/choose" method="POST">
+            <div class="baton">
+                <input type="hidden" name="index" value="1">
+                <button class="ui blue button" name="log" type="submit">Next</button>
+            </div>
+        </form>
+</div>
